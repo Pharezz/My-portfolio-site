@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import Hero from "./sections/hero";
+import Hero from "./sections/Hero"
 import Projects from "./sections/Projects";
 import Skills from "./sections/Stacks";
 import About from "./sections/About";
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
 
       {/* Hero section */}
-      <Hero />
+      <Hero/>
 
       {/* Projects section */}
       <Projects />
