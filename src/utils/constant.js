@@ -23,7 +23,7 @@ export const projects = [
       "QuickMart is a modern e-commerce website built with Next.js, featuring a sleek design powered by Tailwind CSS. It offers an intuitive user interface to explore products, and make purchases seamlessly.",
     image: Project1,
     stack: ["React", "Next.js", "Tailwind CSS"],
-    liveUrl: "https://www.google.com",
+    liveUrl: "https://quick-mart-store.vercel.app/",
     sourceUrl: "https://github.com/Pharezz/QuickMart-Store.git",
   },
 
