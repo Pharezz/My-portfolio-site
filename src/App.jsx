@@ -1,6 +1,8 @@
 import React from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Header from "./components/Header";
-import Hero from "./sections/Hero"
+import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Stacks";
 import About from "./sections/About";
@@ -10,11 +12,14 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
+      {/* react toast */}
+      <ToastContainer position="top-right" autoClose={4000} />
+
       {/* Header section*/}
       <Header />
 
       {/* Hero section */}
-      <Hero/>
+      <Hero />
 
       {/* Projects section */}
       <Projects />
@@ -26,10 +31,10 @@ const App = () => {
       <Skills />
 
       {/* Contact section */}
-      <Contact/>
+      <Contact />
 
       {/* Footer */}
-      <Footer/>
+      <Footer />
     </>
   );
 };

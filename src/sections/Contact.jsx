@@ -34,7 +34,9 @@ const Contact = () => {
               <FaEnvelope className="size-5" />
               <a
                 href="mailto:oguegbuikechukwu@gmail.com"
-                className="text-lg font-semibold transition-colors duration-300 hover:text-indigo-700"
+                target="_blank"
+                className="text-lg font-semibold
+                 transition-colors duration-300 hover:text-indigo-700"
               >
                 oguegbuikechukwu@gmail.com
               </a>
@@ -44,11 +46,17 @@ const Contact = () => {
               {" "}
               <FaFacebook className="size-5 hover:-translate-y-2 hover:text-blue-600 transition-transform duration-300 ease-in-out" />
             </a> */}
-              <a href="https://www.linkedin.com/in/ikechukwu-oguegbu-921601248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <a
+                href="https://www.linkedin.com/in/ikechukwu-oguegbu-921601248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+              >
                 {" "}
                 <FaLinkedin className="size-5 hover:-translate-y-2 hover:text-blue-600 transition-transform duration-300 ease-in-out" />
               </a>
-              <a href="https://x.com/Pharrezz?t=Q69ycYuDKWt2sIjXbcw9_w&s=08">
+              <a
+                href="https://x.com/Pharrezz?t=Q69ycYuDKWt2sIjXbcw9_w&s=08"
+                target="_blank"
+              >
                 {" "}
                 <FaXTwitter className="size-5 hover:-translate-y-2 hover:text-blue-600 transition-transform duration-300 ease-in-out" />
               </a>
