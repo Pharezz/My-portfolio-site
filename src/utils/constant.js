@@ -46,7 +46,7 @@ export const projects = [
       "Noter is a lightweight, user-friendly note-taking app designed for quickly jotting down ideas, tasks, reminders, or thoughts. Built with a focus on simplicity and clean design, it allows users to create, edit, and delete notes effortlessly.",
     image: Project3,
     stack: ["React", "Tailwind CSS", "JavaScript"],
-    liveUrl: "noter-note-app.vercel.app",
+    liveUrl: "https://noter-note-app.vercel.app/",
     sourceUrl: "https://github.com/Pharezz/Noter-note-app.git",
   },
 ];
