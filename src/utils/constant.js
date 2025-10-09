@@ -9,11 +9,11 @@ import Css from "../assets/css.svg";
 import Js from "../assets/javascript.svg";
 import React from "../assets/react.svg";
 import Node from "../assets/nodejs.svg";
-import Express  from '../assets/express.svg'
+import Express from "../assets/express.svg";
 import Tailwind from "../assets/tailwindcss.svg";
-import Git from '../assets/git.svg'
-import Mongodb from '../assets/mongodb.svg'
-import Vercel from '../assets/vercel.svg'
+import Git from "../assets/git.svg";
+import Mongodb from "../assets/mongodb.svg";
+import Vercel from "../assets/vercel.svg";
 
 export const projects = [
   {
@@ -35,7 +35,7 @@ export const projects = [
 
     image: Project2,
     stack: ["React", "Tailwind CSS", "JavaScript"],
-    liveUrl: "https://www.google.com",
+    liveUrl: "https://clouddz.netlify.app/",
     sourceUrl: "https://github.com/Pharezz/cloudz-weather-app.git",
   },
 
@@ -46,7 +46,7 @@ export const projects = [
       "Noter is a lightweight, user-friendly note-taking app designed for quickly jotting down ideas, tasks, reminders, or thoughts. Built with a focus on simplicity and clean design, it allows users to create, edit, and delete notes effortlessly.",
     image: Project3,
     stack: ["React", "Tailwind CSS", "JavaScript"],
-    liveUrl: "https://www.google.com",
+    liveUrl: "noter-note-app.vercel.app",
     sourceUrl: "https://github.com/Pharezz/Noter-note-app.git",
   },
 ];
