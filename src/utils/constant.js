@@ -27,8 +27,19 @@ export const projects = [
     sourceUrl: "https://github.com/Pharezz/QuickMart-Store.git",
   },
 
-  {
+   {
     id: 2,
+    title: "Noter",
+    description:
+      "Noter is a lightweight, user-friendly note-taking app designed for quickly jotting down ideas, tasks, reminders, or thoughts. Built with a focus on simplicity and clean design, it allows users to create, edit, and delete notes effortlessly.",
+    image: Project3,
+    stack: ["React", "Tailwind CSS", "JavaScript"],
+    liveUrl: "https://noter-note-app.vercel.app/",
+    sourceUrl: "https://github.com/Pharezz/Noter-note-app.git",
+  },
+
+  {
+    id: 3,
     title: "Cloudz",
     description:
       "Cloudz is clean and responsive weather app built to display real-time weather data for any location. It fetches live weather information using a public API and displays key data such as temperature, weather conditions, humidity, and wind speed. Users can search for cities and receive instant updates with a smooth, intuitive UI.",
@@ -39,16 +50,7 @@ export const projects = [
     sourceUrl: "https://github.com/Pharezz/cloudz-weather-app.git",
   },
 
-  {
-    id: 3,
-    title: "Noter",
-    description:
-      "Noter is a lightweight, user-friendly note-taking app designed for quickly jotting down ideas, tasks, reminders, or thoughts. Built with a focus on simplicity and clean design, it allows users to create, edit, and delete notes effortlessly.",
-    image: Project3,
-    stack: ["React", "Tailwind CSS", "JavaScript"],
-    liveUrl: "https://noter-note-app.vercel.app/",
-    sourceUrl: "https://github.com/Pharezz/Noter-note-app.git",
-  },
+ 
 ];
 
 export const stacks = [
